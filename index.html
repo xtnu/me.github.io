@@ -399,6 +399,20 @@
     color: #1a73e8;
   }
 
+  /* 备案文字样式，和底部统一 */
+  .footer-icp {
+    margin-top: 20px;
+    font-size: 0.82rem;
+    color: #999;
+  }
+  .footer-icp a {
+    color: #999;
+    text-decoration: none;
+  }
+  .footer-icp a:active {
+    color: #1a73e8;
+  }
+
   /* 响应式微调 */
   @media (max-width: 400px) {
     .hero-title { font-size: 2.8rem; }
@@ -410,6 +424,7 @@
     .footer-section { padding: 30px 16px 30px; }
     .footer-text { font-size: 0.8rem; margin-bottom: 20px; }
     .footer-links { gap: 20px; font-size: 0.95rem; }
+    .footer-icp { margin-top:16px; font-size:0.78rem; }
   }
 </style>
 </head>
@@ -510,7 +525,6 @@
     星野赞助免费提供安装包由星野赞<br>
     助提供 <span style="color:#888;font-size:0.8em;">｜托管：<a href="https://www.521567.xyz/" target="_blank" style="color:inherit;text-decoration:none;">Xtn</a></span>
   </div>
-</footer>
 
       <div class="footer-links">
         <a href="#">GitHub</a>
@@ -518,11 +532,12 @@
         <a href="#">论坛</a>
         <a href="#">文档</a>
       </div>
+
+  <div class="footer-icp">
+    <a href="https://icp.gov.moe/?keyword=20261522" target="_blank">渝ICP备20261522号-3A</a>
+  </div>
       
     </footer>
-<div style="text-align:center;">
-<a href="https://icp.gov.moe/?keyword=20261522" target="_blank">渝ICP备20261522号-3A</a>
-</div>
 
   </div>
 
